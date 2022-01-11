@@ -10,4 +10,4 @@ print(y)
 
 z=x+" "+y
 
-print(z)
+print("Your Band name coulb be " +z)
