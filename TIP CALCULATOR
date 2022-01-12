@@ -1,0 +1,25 @@
+#Tip Calculator
+print("Welcome to the Tip Calculator")
+x=input("What was the total bill? - ")
+y=input("What percentage tip you would like to give? 10,12 or 15? - ")
+z=input("How Many people to split bill? - ")
+
+bill=float(x)
+tip=int(y)
+persons=int(z)
+
+tip_percent=round(tip/100,2)
+bill_tip=bill*tip_percent
+total=bill+bill_tip
+
+result = total/persons
+
+print(result)
+
+
+
+
+
+
+
+
